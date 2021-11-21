@@ -1,0 +1,13 @@
+This is our BC13005 Image Steganography project.
+First, we compress the text and pad it to mod 128.
+Then, we perform AES encryption on it.
+We embed the result in an image.
+We retrieve that image.
+Then perform AES decryption.
+Then remove padding and then decompress text.
+Here, the data to be shared is first compressed, encrypted, then embedded in a carrier file (an image in our case).
+It provides a multiple of layers of protection of the data.
+And not only is the data encrypted, if the attacker manages to break the first layer of encryption,
+the information won’t make any sense, as it’ll just be the carrier file.
+The additional module used is opencv which is used only for reading and modifying image pixels.
+There are 3 members in the project with modules divided to everyone.
