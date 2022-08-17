@@ -13,3 +13,5 @@ Custom technique for embedding
 
 ![image](https://user-images.githubusercontent.com/89768939/185040959-307bed93-e6c5-4d43-8f1b-1775f0be95a9.png)
 
+For embedding techniques visit project report
+
