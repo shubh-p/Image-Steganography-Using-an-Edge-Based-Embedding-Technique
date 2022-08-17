@@ -1,4 +1,3 @@
-This is our BC13005 Image Steganography project.
 First, we compress the text and pad it to mod 128.
 Then, we perform AES encryption on it.
 We embed the result in an image.
